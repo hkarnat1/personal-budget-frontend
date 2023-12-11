@@ -28,7 +28,6 @@ const Login = () => {
     <div style={{ display: "grid", height: "100vh", placeContent: "center" }}>
       <div className="login-card">
         <h2> Login Page </h2>
-
         <Input
           type="email"
           placeholder="Email/Username"
