@@ -14,7 +14,7 @@ import {
   getExpenses as getExpensesapi,
   addExpenses,
   deleteExpense,
-} from "../api/api.js";
+} from "../api.js";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -84,7 +84,7 @@ const AddExpense = () => {
 
   return (
     <div className="expenses">
-      <div className="calendar">
+      <div className="calendar" data-testid="calendar-component">
         <h2>Month Picker</h2>
         <Calendar
           view="year"
