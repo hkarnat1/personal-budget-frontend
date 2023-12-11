@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect'; // Import this for additional matchers
 
-import AddExpense from './AddExpense';
+import AddExpense from './add-expense.jsx';
 
 describe('AddExpense', () => {
   it('should render the "Add New Expense" button', () => {

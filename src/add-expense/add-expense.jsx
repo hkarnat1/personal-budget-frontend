@@ -14,7 +14,7 @@ import {
   getExpenses as getExpensesapi,
   addExpenses,
   deleteExpense,
-} from "../api";
+} from "../api/api.js";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";

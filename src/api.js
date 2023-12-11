@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const baseUrl = "http://104.236.4.147:3001";
+const baseUrl = process.env.NODE_ENV === "production" ? prodUrl : devUrl;
+const prodUrl = "http://104.236.4.147:3001";
+const devUrl = "http://localhost:3001";
 
 export const login = async ({ email, password }) => {
   const res = await axios.post(baseUrl + "/auth/login", { email, password });
