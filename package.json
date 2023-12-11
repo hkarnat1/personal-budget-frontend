@@ -31,8 +31,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "start": "nodemon ./bin/www",
-    "pm2-start": "pm2 start ./bin/www",
     "test": "jest"
   },
   "eslintConfig": {
