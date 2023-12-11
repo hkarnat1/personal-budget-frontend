@@ -23,12 +23,3 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-
-const { setupEyes } = require('@applitools/eyes-cypress');
-
-setupEyes({
-  appName: 'personal-budget-frontend', 
-  batchName: 'Dashboard Screen', 
-  apiKey: 'tKDWgoPcjtErGQJjJ99Qz7PqdhdxZqqC98J9u2DEGvO9M110', 
-  showLogs: true, 
-});
